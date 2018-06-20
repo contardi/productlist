@@ -9,6 +9,7 @@
  * @copyright  Copyright (c) 2018
  */
 class Contardi_ProductList_Helper_Data
+    extends Mage_Core_Helper_Abstract
 {
 
 }
