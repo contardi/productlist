@@ -6,7 +6,7 @@
  * @package    Contardi_ProductList
  * @copyright  Copyright (c) 2018.
  */
-class Contardi_ProductList_Model_Source_Categorias
+class Contardi_ProductList_Model_Source_Categories
 {
 
     public function toOptionArray()
