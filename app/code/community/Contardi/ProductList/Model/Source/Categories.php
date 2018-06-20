@@ -8,10 +8,8 @@
  */
 class Contardi_ProductList_Model_Source_Categories
 {
-
     public function toOptionArray()
     {
-
         $rootCategoryIds = array();
         $categories = array();
 

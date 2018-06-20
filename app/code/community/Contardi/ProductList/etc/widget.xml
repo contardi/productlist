@@ -28,7 +28,7 @@
                 <visible>1</visible>
                 <required>0</required>
                 <label>Title</label>
-                <type>textarea</type>
+                <type>text</type>
                 <sort_order>20</sort_order>
             </title>
             <category>

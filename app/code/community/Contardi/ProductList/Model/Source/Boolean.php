@@ -7,7 +7,6 @@
  */
 class Contardi_ProductList_Model_Source_Boolean
 {
-
     public function toOptionArray()
     {
         $attributes = Mage::getModel('catalog/product')->getResource()
