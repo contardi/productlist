@@ -9,11 +9,16 @@
 <config>
     <modules>
         <Contardi_ProductList>
-            <version>0.12.6</version>
+            <version>1.0.0</version>
         </Contardi_ProductList>
     </modules>
 
     <global>
+        <models>
+            <contardi_productlist>
+                <class>Contardi_ProductList_Model</class>
+            </contardi_productlist>
+        </models>
         <blocks>
             <contardi_productlist>
                 <class>Contardi_ProductList_Block</class>
