@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @author Thiago Contardi
+ * @copyright Copyright (c) 2018
+ * @package Contardi_ProductList
+ */
+-->
+<config>
+    <modules>
+        <Contardi_ProductList>
+            <active>true</active>
+            <codePool>community</codePool>
+        </Contardi_ProductList>
+    </modules>
+</config>

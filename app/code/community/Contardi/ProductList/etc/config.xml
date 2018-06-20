@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+/**
+ * @author Thiago Contardi
+ * @copyright Copyright (c) 2018
+ * @package Contardi_ProductList
+ */
+-->
+<config>
+    <modules>
+        <Contardi_ProductList>
+            <version>0.12.6</version>
+        </Contardi_ProductList>
+    </modules>
+
+    <global>
+        <blocks>
+            <contardi_productlist>
+                <class>Contardi_ProductList_Block</class>
+            </contardi_productlist>
+        </blocks>
+        <helpers>
+            <contardi_productlist>
+                <class>Contardi_ProductList_Helper</class>
+            </contardi_productlist>
+        </helpers>
+    </global>
+</config>

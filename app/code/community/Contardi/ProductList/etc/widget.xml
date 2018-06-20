@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+/**
+ * @author Thiago Contardi
+ * @copyright Copyright (c) 2018
+ * @package Contardi_ProductList
+ */
+-->
+<widgets>
+    <widget_produtos type="contardi_productlist/widget_products" module="contardi_productlist">
+        <name>Product List</name>
+        <parameters>
+            <template>
+                <visible>0</visible>
+                <label>Template</label>
+                <type>text</type>
+                <value>contardi/productlist/widgets/products.phtml</value>
+            </template>
+            <identificator>
+                <visible>1</visible>
+                <required>1</required>
+                <label>ID</label>
+                <type>text</type>
+                <class>validate-code</class>
+                <sort_order>10</sort_order>
+            </identificator>
+            <title>
+                <visible>1</visible>
+                <required>0</required>
+                <label>Title</label>
+                <type>textarea</type>
+                <sort_order>20</sort_order>
+            </title>
+            <category>
+                <visible>1</visible>
+                <required>0</required>
+                <label>Categories</label>
+                <type>multiselect</type>
+                <sort_order>30</sort_order>
+                <source_model>contardi_productlist/source_categories</source_model>
+            </category>
+            <attribute>
+                <visible>1</visible>
+                <required>0</required>
+                <label>Attributes</label>
+                <type>select</type>
+                <sort_order>40</sort_order>
+                <source_model>contardi_productlist/source_boolean</source_model>
+                <description>Only boolean attributes</description>
+            </attribute>
+            <limit>
+                <visible>1</visible>
+                <required>0</required>
+                <label>Limit</label>
+                <type>text</type>
+                <sort_order>31</sort_order>
+                <value>50</value>
+                <class>validate-number</class>
+                <description>Max limit: 32</description>
+            </limit>
+            <column_count>
+                <visible>1</visible>
+                <required>0</required>
+                <label>Column Count</label>
+                <type>text</type>
+                <sort_order>60</sort_order>
+                <class>validate-number</class>
+            </column_count>
+            <show_out_of_stock>
+                <visible>1</visible>
+                <required>0</required>
+                <label>Show out of stock products</label>
+                <type>select</type>
+                <sort_order>70</sort_order>
+                <source_model>adminhtml/system_config_source_yesno</source_model>
+            </show_out_of_stock>
+        </parameters>
+        <is_email_compatible>0</is_email_compatible>
+    </widget_produtos>
+</widgets>
