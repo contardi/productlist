@@ -7,14 +7,14 @@
  */
 -->
 <widgets>
-    <widget_produtos type="contardi_productlist/widget_products" module="contardi_productlist">
+    <widget_products type="contardi_productlist/widget_products" module="contardi_productlist">
         <name>Product List</name>
         <parameters>
             <template>
                 <visible>0</visible>
                 <label>Template</label>
                 <type>text</type>
-                <value>contardi/productlist/widgets/products.phtml</value>
+                <value>contardi/productlist/widget/products.phtml</value>
             </template>
             <identificator>
                 <visible>1</visible>
@@ -76,5 +76,5 @@
             </show_out_of_stock>
         </parameters>
         <is_email_compatible>0</is_email_compatible>
-    </widget_produtos>
+    </widget_products>
 </widgets>

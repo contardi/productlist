@@ -24,7 +24,7 @@ class Contardi_ProductList_Block_Widget_Products
     public function __construct()
     {
         parent::__construct();
-        $template = ($this->getData('template')) ? $this->getData('template') : 'contardi/productlist/widgets/products.phtml';
+        $template = ($this->getData('template')) ? $this->getData('template') : 'contardi/productlist/widget/products.phtml';
         $this->setTemplate($template);
     }
 
@@ -89,7 +89,7 @@ class Contardi_ProductList_Block_Widget_Products
         return $_collection;
     }
 
-    protected function _getProductCollection()
+    protected function getProductCollection()
     {
         if (is_null($this->_productCollection)) {
             try {
