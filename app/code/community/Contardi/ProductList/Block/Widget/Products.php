@@ -51,7 +51,6 @@ class Contardi_ProductList_Block_Widget_Products
             __CLASS__,
             'WIDGET_' . $this->getData('identificator') . '_' . Mage::app()->getStore()->isCurrentlySecure(),
             Mage::app()->getStore()->getCode(),
-            $this->_getHelper()->getCurrentTheme(),
             $this->getTemplateFile(),
             Mage::getSingleton('customer/session')->getCustomerGroupId(),
             'template' => $this->getTemplate(),
